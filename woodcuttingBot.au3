@@ -7,6 +7,7 @@
 	Woodcutting bot
 
 #ce ----------------------------------------------------------------------------
+; GUI STARTS HERE
 #include <ButtonConstants.au3>
 #include <GUIConstantsEx.au3>
 #include <WindowsConstants.au3>
@@ -33,14 +34,16 @@ While 1
 
 	EndSelect
 WEnd
+; GUI ENDS HERE
 
-; Script Start - Add your code below here
 
+; TERMINATE() STARTS HERE
 Func Terminate()
    Exit 1
 EndFunc
+; TERMINATE() ENDS HERE
 
-
+; WOODCUTTING_BOT() STARTS HERE
 Func chopLoop()
    MsgBox(0,"LET'S GO!","Press ESC to quit")
 
@@ -76,3 +79,4 @@ Func chopLoop()
 	  EndIf
    WEnd
 EndFunc
+; WOODCUTTING_BOT() ENDS HERE
