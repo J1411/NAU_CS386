@@ -26,7 +26,7 @@ While 1
 			Terminate()
 
 		Case $nMsg = $moveMouse
-			Test_findColorAndMoveMouse()
+			Test_dropItem()
 
 		Case $nMsg = $exitButton
 			Terminate()
